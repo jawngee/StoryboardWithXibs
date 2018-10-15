@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FirstViewController.h
 //  StoryboardBestPractice
 //
 //  Created by Jon Gilkison on 10/15/18.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface FirstViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

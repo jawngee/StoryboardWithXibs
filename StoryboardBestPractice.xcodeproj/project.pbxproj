@@ -8,24 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		FF86538921747DBA002AF3CD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF86538821747DBA002AF3CD /* AppDelegate.m */; };
-		FF86538C21747DBA002AF3CD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF86538B21747DBA002AF3CD /* ViewController.m */; };
 		FF86538F21747DBA002AF3CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF86538D21747DBA002AF3CD /* Main.storyboard */; };
 		FF86539121747DBB002AF3CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF86539021747DBB002AF3CD /* Assets.xcassets */; };
 		FF86539421747DBB002AF3CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF86539221747DBB002AF3CD /* LaunchScreen.storyboard */; };
 		FF86539721747DBB002AF3CD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF86539621747DBB002AF3CD /* main.m */; };
+		FF8653A021747E20002AF3CD /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF86539E21747E20002AF3CD /* FirstViewController.m */; };
+		FF8653A121747E20002AF3CD /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF86539F21747E20002AF3CD /* FirstViewController.xib */; };
+		FF8653A521747E2D002AF3CD /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF8653A321747E2D002AF3CD /* SecondViewController.m */; };
+		FF8653A621747E2D002AF3CD /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF8653A421747E2D002AF3CD /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FF86538421747DBA002AF3CD /* StoryboardBestPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoryboardBestPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF86538721747DBA002AF3CD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF86538821747DBA002AF3CD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FF86538A21747DBA002AF3CD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FF86538B21747DBA002AF3CD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FF86538E21747DBA002AF3CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF86539021747DBB002AF3CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF86539321747DBB002AF3CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF86539521747DBB002AF3CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF86539621747DBB002AF3CD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF86539D21747E20002AF3CD /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FF86539E21747E20002AF3CD /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FF86539F21747E20002AF3CD /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		FF8653A221747E2D002AF3CD /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FF8653A321747E2D002AF3CD /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FF8653A421747E2D002AF3CD /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +67,17 @@
 			children = (
 				FF86538721747DBA002AF3CD /* AppDelegate.h */,
 				FF86538821747DBA002AF3CD /* AppDelegate.m */,
-				FF86538A21747DBA002AF3CD /* ViewController.h */,
-				FF86538B21747DBA002AF3CD /* ViewController.m */,
 				FF86538D21747DBA002AF3CD /* Main.storyboard */,
 				FF86539021747DBB002AF3CD /* Assets.xcassets */,
 				FF86539221747DBB002AF3CD /* LaunchScreen.storyboard */,
 				FF86539521747DBB002AF3CD /* Info.plist */,
 				FF86539621747DBB002AF3CD /* main.m */,
+				FF86539D21747E20002AF3CD /* FirstViewController.h */,
+				FF86539E21747E20002AF3CD /* FirstViewController.m */,
+				FF86539F21747E20002AF3CD /* FirstViewController.xib */,
+				FF8653A221747E2D002AF3CD /* SecondViewController.h */,
+				FF8653A321747E2D002AF3CD /* SecondViewController.m */,
+				FF8653A421747E2D002AF3CD /* SecondViewController.xib */,
 			);
 			path = StoryboardBestPractice;
 			sourceTree = "<group>";
@@ -131,6 +142,8 @@
 				FF86539421747DBB002AF3CD /* LaunchScreen.storyboard in Resources */,
 				FF86539121747DBB002AF3CD /* Assets.xcassets in Resources */,
 				FF86538F21747DBA002AF3CD /* Main.storyboard in Resources */,
+				FF8653A121747E20002AF3CD /* FirstViewController.xib in Resources */,
+				FF8653A621747E2D002AF3CD /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,8 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF86538C21747DBA002AF3CD /* ViewController.m in Sources */,
+				FF8653A521747E2D002AF3CD /* SecondViewController.m in Sources */,
 				FF86539721747DBB002AF3CD /* main.m in Sources */,
+				FF8653A021747E20002AF3CD /* FirstViewController.m in Sources */,
 				FF86538921747DBA002AF3CD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
